@@ -1,0 +1,13 @@
+void nForest(int n) {
+	int m = n;
+	int temp = n;
+	while(m>0){
+		temp = n;
+		while(temp>0){
+			cout<<"* ";
+			temp--;
+		}
+		cout<<endl;
+		m--;
+	}
+}
